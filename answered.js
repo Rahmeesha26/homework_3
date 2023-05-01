@@ -15,7 +15,7 @@
 let grow = 0;
 while (grow <= 200) {
     console.log(grow)
-    grow = grow + 1
+    grow = grow + 2
 }
 
 ////////////////////////// PART 1: HTML & CSS ////////////////////////////////////
