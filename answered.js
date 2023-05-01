@@ -4,10 +4,18 @@
 
 ////////////////////////// PART 2: JAVASCRIPT REPS ////////////////////////////////////
 
-let low = 1;
-while (low <= 20) {
-    console.log(low)
-    low = low + 1
+// Easy Going //
+// let low = 1;
+// while (low <= 20) {
+//     console.log(low)
+//     low = low + 1
+// }
+
+// Get Even //
+let grow = 0;
+while (grow <= 200) {
+    console.log(grow)
+    grow = grow + 1
 }
 
 ////////////////////////// PART 1: HTML & CSS ////////////////////////////////////
