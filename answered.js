@@ -29,20 +29,40 @@
 
 // If a number is divisible by 3 log "Fizz" instead of the number.
 // I'm not sure how to do this.
-let t = 3((90));
-if (t % 90) {
-    console.log("fizz");
+// if (90 % 3) {
+//     console.log("fizz");
+// }
+
+for (let t = 3; ; t = t + 1) {
+    if (t % 90 == 0) {
+        console.log("fizz");
+        break;
+    }
 }
 
 // If a number is divisible by 5 log "Buzz" instead of the number.
-// I'm not sure how to do this.
-let 
+for (let f = 5; ; f = f + 1) {
+    if (f % 100 == 0) {
+        console.log("buzz");
+        break;
+    }
+}
 
 // If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
-
+for (let t = 3; f = 5; i++) {
+    if (t % 30 || f % 100 == 0) {
+        console.log("fizzbuzz");
+        break;
+    }
+}
 
 
 // Wild Wild Life //
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const sharky = ["Sharky", "shark", 20, "Left Coast"]
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 
 
