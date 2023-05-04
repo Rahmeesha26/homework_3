@@ -79,15 +79,31 @@
 // console.log(dart)
 
 // Yell at the Nnja Turtles //
-const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
-for (const turtles of ninjaTurtles) {
-    console.log(turtles.toUpperCase());
-}
+// for (const turtles of ninjaTurtles) {
+//     console.log(turtles.toUpperCase());
+// }
 
 
 // Methods, Revised //
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// favMovies.push(`V for Vendetta`);
+// favMovies.sort();
+// favMovies.pop();
+// favMovies.push("Guardians of the Galaxy");
+// favMovies.reverse();
+// favMovies.shift();
+// favMovies.unshift();
+// favMovies.splice(15);
+// favMovies.push("Avatar");
+// console.log(favMovies.slice(5))
+// console.log("Fast and Furious")
+// I tried with let,but there was.'t any change that I seen
 
+// favMovies.push("V for Vendetta")
+
+// console.log(favMovies);
 
 
 // Where is Waldo //
