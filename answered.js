@@ -33,40 +33,52 @@
 //     console.log("fizz");
 // }
 
-for (let t = 3; ; t = t + 1) {
-    if (t % 90 == 0) {
-        console.log("fizz");
-        break;
-    }
-}
+// figured it out below
+// for (let t = 3; ; t = t + 1) {
+//     if (t % 90 == 0) {
+//         console.log("fizz");
+//         break;
+//     }
+// }
 
 // If a number is divisible by 5 log "Buzz" instead of the number.
-for (let f = 5; ; f = f + 1) {
-    if (f % 100 == 0) {
-        console.log("buzz");
-        break;
-    }
-}
+// for (let f = 5; ; f = f + 1) {
+//     if (f % 100 == 0) {
+//         console.log("buzz");
+//         break;
+//     }
+// }
 
 // If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
-for (let t = 3; f = 5; i++) {
-    if (t % 30 || f % 100 == 0) {
-        console.log("fizzbuzz");
-        break;
-    }
-}
-
+// for (let t = 3; f = 5; i++) {
+//     if (t % 30 || f % 100 == 0) {
+//         console.log("fizzbuzz");
+//         break;
+//     }
+// }
 
 // Wild Wild Life //
-// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-// const sharky = ["Sharky", "shark", 20, "Left Coast"]
-// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+wolfy[3] = "Gotham City"
+wolfy.length = 0
+wolfy.push("Gameboy", "wolf", 16, "Gotham City")
+console.log(wolfy)
+
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
 
 
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+plantee[2] = 5001
+console.log(plantee)
 
-// Yell at the Ninja Turtles //
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+
+
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+    dart.push("Hawkins") + [3]
+console.log(dart)
+
+// Yell at the Nnja Turtles //
 
 
 
