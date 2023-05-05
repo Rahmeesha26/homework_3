@@ -106,9 +106,17 @@
 // console.log(favMovies);
 
 
+
 // Where is Waldo //
 
-
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.sort();
+whereIsWaldo.splice(0, 1);
+whereIsWaldo.length = 3
+// whereIsWaldo.push(["Timmy", "Frank"], ["Petunia", ["Baked Goods", "Waldo"]]);
+console.log("Waldo")
 
 // Excited Kitten //
 
